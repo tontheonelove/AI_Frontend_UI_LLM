@@ -13,7 +13,7 @@ Support list 🔥
 #### - Backend ▶️ Python (API)
 
 ```
-run uvicorn main:app --reload
+uvicorn main:app --reload
 ```
 
 try open index.html
@@ -47,7 +47,7 @@ client = OpenAI(
 #### every change restart backend with  
 
 ```
-run uvicorn main:app --reload
+uvicorn main:app --reload
 ```
 
 🔥🔥🔥🔥
