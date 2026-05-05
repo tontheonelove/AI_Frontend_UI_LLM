@@ -12,6 +12,13 @@ Support list 🔥
 
 #### - Backend ▶️ Python (API)
 
+
+## How to start with venv
+
+```
+python -m venv venv && venv\Scripts\activate
+```
+
 ```
 uvicorn main:app --reload
 ```
