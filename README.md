@@ -8,8 +8,9 @@ Support list 🔥
 - unsloth  https://unsloth.ai/
 - Aion  https://aionui.com/
 
-Frontend ▶️ HTML + BOOTSTRAP
-Backend ▶️ Python (API)
+# - Frontend ▶️ HTML + BOOTSTRAP
+
+# - Backend ▶️ Python (API)
 
 ```
 run uvicorn main:app --reload
