@@ -19,6 +19,35 @@ run uvicorn main:app --reload
 try open index.html
 
 
-# Change Privider 
+# How Change Provider 
+
+1. change .env file   use your api key
+
+2. edit main.py
+
+- change base url with your provider
+
+- change API_NAME  With your provider   you can check name in .env file   example OPENROUTER_API_KEY  or OLLAMA_API_KEY
+
+```
+client = OpenAI(
+    base_url="https://openrouter.ai/api/v1",
+    api_key=os.getenv("OPENROUTER_API_KEY")
+)
+```
+3. change model selector with your privider model name  example openai/gpt-oss-120b:free  or  unsloth/gpt-oss-120b
+
+```
+<select class="model-selector" id="modelSelect">
+                <option value="openai/gpt-oss-120b:free">gpt-oss-120b</option>
+        </select>
+```
 
 
+#### every change restart backend with  
+
+```
+run uvicorn main:app --reload
+```
+
+🔥🔥🔥🔥
